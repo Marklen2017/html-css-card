@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body {
+    background-color: #E5E5E5
+}
+
+.card {
+    background-color: white;
+    width: 367px;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image-header {
+
+    background-image: url("./images/headerimage.png");
+    max-width: 367px;
+    width: 100%;
+    height: 179px;
+    border-top-left-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-circle img {
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+
+.img-circle {
+    padding: 12px;
+}
+
+.header-text h3 {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    padding: 0 12px 0 12px;
+    font-size: 14px;
+
+}
+
+.title-card h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 26px;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.by p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+    padding: 0 12px;
+}
+
+.progress-div {
+    padding: 0 12px 0 12px;
+}
+
+.progress-div p {
+    font-family: 'Roboto';
+}
+
+.progress {
+    background: linear-gradient(90deg, #4CE77B 0%, #73F49A 100%);
+    color: white;
+
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.progress-items {
+    background-color: #F0F0F0;
+    width: 335px;
+    border-radius: 15px;
+}
+
+.line {
+    width: 64%;
+    font-size: 14px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.options img {
+    cursor: pointer
+}
+
+.like {
+    cursor: pointer;
+}
+
+.icons-like-share {
+    display: flex;
+}
+
+.share {
+    cursor: pointer;
+    padding: 0 0 0 10px;
+}
